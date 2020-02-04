@@ -1,0 +1,21 @@
+@import '../../index.scss';
+
+.tourlist {
+  width: 70vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.exitInfo {
+  display: block;
+  position: absolute;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: $mainGreen;
+  padding: 2rem 3rem; 
+  font-size: 2rem;
+  margin: 7rem;
+  color: white;
+  border-radius: 2rem;
+}
