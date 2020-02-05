@@ -10,7 +10,7 @@ export default class Tour extends Component {
     });
   };
   render() {
-    const { id, city, img, name, info } = this.props.tour;
+    const { id, centre, img, name, info } = this.props.tour;
     const { removeTour } = this.props;
 
     return (
@@ -22,7 +22,7 @@ export default class Tour extends Component {
           </span>
         </div>
         <div className="tour-info">
-          <h3>{city}</h3>
+          <h3>{centre}</h3>
           <h4>{name}</h4>
           <h5>
             info{" "}
